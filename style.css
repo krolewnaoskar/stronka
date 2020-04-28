@@ -1,0 +1,27 @@
+ .btn-primary{
+    background:red;
+   border: none;
+}
+.btn-primary:hover {
+   
+    opacity: 0.5;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-color: pink;
+}
+.cart-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    .card-body p { 
+        /*pozycionowanie tekstu*/
+        text-align: center;
+    }
+    footer {
+        background: black;
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
