@@ -1,9 +1,25 @@
-console.log("pierwszy skrypt oskara");
-var button=document.querySelector("#nazwa");
-console.log(button);
-function pokazAlert(){
-    alert("jestem debilem");
 
+var modal = document.getElementById("myModal");
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+ 
+btn.onclick = function() {
+  modal.style.display = "block";
 }
 
-document.querySelector("#nazwa").addEventListener("click",pokazAlert);
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}

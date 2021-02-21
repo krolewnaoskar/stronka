@@ -8,53 +8,64 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
+  
   <body>
     <!--nawigacja menu---------------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
+      <img src="dzwig2.png" alt="...">
+      <button class="btn-mainpage">Strona Główna</button>
+      <button id="myBtn"  class="btn-contact">Kontakt</button>
+      
+      
+          
+        
+
+      
+     <!---header----------------------------------------------------------------------------------------------------------------->
     </nav>
-<header>
-  <div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a id="nazwa" class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <header>
+      <div class="jumbotron">
+        <h1 class="display-4">O nas</h1>
+        <p class="lead">Nasza firma posiada 15 letnie doświadczenie w branży dźwigowej w tym:
+          wynajem, transport, montaż, serwis i przeglądy konserwatorskie.
+          Udzielamy wszelkiej potrzebnej pomocy klientowi.Doradztwo w sprawie wyboru
+          najbardziej odpowiedniego typu dźwigu serwis i przeglądy okresowe.
+          Zapewniamy stałe wsparcie na wszystkich etapach wynajmu żurawia.
+          Organizujemy kursy i szkolenia wraz z egzaminem do uzyskania kwalifikacji
+          operatora żurawi.
+          Posiadamy zachodnie szkolenia i certyfikaty upoważniające nas
+          do montażu i eksploatacji żurawi w Polsce, Europie a także w krajach arabskich.
+          Możliwość wynajmu żurawia wraz z operatorem.
+          Żurawie szybkiego montażu nadają się szczególnie do stosowania na budowach
+          o niewielkiej i średniej powierzchni lub budowach krótkoterminowych.
+          Zredukowane wymiary podczas transportu, szybki montaż i demontaż sprawiają że Nasze żurawie
+          są niezwykle praktyczne i funkcjonalne.
+          Zapraszamy do współpracy.</p>
+        <hr class="my-4">
+        <p></p>
+      </div>
+
+<!----modal-----------------------------------> 
+
+  
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
   </div>
+
+</div>
+
+
+
 
 </header>
 <!--carosela---------------------------------------------------------------------------------------->
@@ -96,51 +107,49 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
 <!--karty--------------------------------------------------------------------->
 <section class="cart-wrapper">
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="card" >
-        <img src="Bez tytułu5.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">tekst </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card" >
-        <img src="Bez tytułu5.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">tekst</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card" >
-        <img src="Bez tytułu5.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">tekst</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
- 
-
-</section>
-<footer>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      <div class="col-sm">
-        <p>strona oskara</p>
+      <div class="col-sm-4">
+        <div class="card" >
+          <img src="Bez tytułu5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">tekst </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" >
+          <img src="Bez tytułu5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">tekst</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" >
+          <img src="Bez tytułu5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">tekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekstteksttekst
+              teksttekstteksttekstteksttekst
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
+  <!---footer----------------------------------------------------------------------------------------------------------------------------------->
+  <footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+         
+            
+            </div>
+        </div>
+    </div>
 </footer>
-
 
 
     
